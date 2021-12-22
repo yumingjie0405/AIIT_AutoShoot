@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FMT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\fmt\;CMake Files\3rdparty\fmt\support\;CMake Files\3rdparty\fmt\support\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 fmt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 fmt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/ChangeLog.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/README.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/args.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/chrono.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/color.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/compile.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/core.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/format-inl.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/format.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/locale.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/os.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/ostream.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/printf.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/ranges.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/xchar.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/src/format.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/src/os.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\fmt\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/support/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/support/cmake/cxx14.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

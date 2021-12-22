@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WolfVision"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\fmt\;CMake Files\3rdparty\fmt\support\;CMake Files\3rdparty\fmt\support\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WolfVision">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/bin/WolfVision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add option="-DSOURCE_PATH=&quot;/home/aiit/Desktop/WolfVision-main&quot;"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 WolfVision"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WolfVision/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/bin/WolfVision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add option="-DSOURCE_PATH=&quot;/home/aiit/Desktop/WolfVision-main&quot;"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 WolfVision/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-video-record">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-video-record.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-video-record"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-video-record/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-video-record.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-video-record/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-armor">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-armor.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-armor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-armor/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-armor.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-armor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-roi">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-roi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-roi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-roi/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-roi.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-roi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-pnp">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-pnp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-pnp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-pnp/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-pnp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-pnp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-onnx-inferring">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-onnx-inferring.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-onnx-inferring"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-onnx-inferring/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-onnx-inferring.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-onnx-inferring/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-uart-serial">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-uart-serial.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-uart-serial"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-uart-serial/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-uart-serial.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-uart-serial/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-mv-video-capture">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-mv-video-capture.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-mv-video-capture"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-mv-video-capture/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-mv-video-capture.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-mv-video-capture/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-fan-armor">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-fan-armor.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-fan-armor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-fan-armor/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-fan-armor.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-fan-armor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-kalman">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-kalman.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-kalman"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-kalman/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-kalman.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-kalman/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-buff">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-buff.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-buff"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wv-basic-buff/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/lib/libwv-basic-buff.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCONFIG_FILE_PATH=&quot;/home/aiit/Desktop/WolfVision-main/configs&quot;"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/mindvision/linux/Daheng"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/base"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/camera"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/devices/serial"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/angle_solve"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/armor"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/buff"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/filter"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/record"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/ml"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/module/roi"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/utils"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 wv-basic-buff/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 fmt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fmt/fast">
+				<Option output="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/libfmtd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add directory="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 fmt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/ChangeLog.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/README.rst">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/args.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/chrono.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/color.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/compile.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/core.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/format-inl.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/format.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/locale.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/os.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/ostream.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/printf.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/ranges.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/include/fmt/xchar.h">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/src/format.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/src/os.cc">
+			<Option target="fmt"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/base/wolfvision.cpp">
+			<Option target="WolfVision"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/base/wolfvision.hpp">
+			<Option target="WolfVision"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/devices/camera/DahengVison.cpp">
+			<Option target="wv-mv-video-capture"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/devices/serial/uart_serial.cpp">
+			<Option target="wv-uart-serial"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/devices/serial/uart_serial.hpp">
+			<Option target="wv-uart-serial"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/angle_solve/basic_pnp.cpp">
+			<Option target="wv-basic-pnp"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/angle_solve/basic_pnp.hpp">
+			<Option target="wv-basic-pnp"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/armor/basic_armor.cpp">
+			<Option target="wv-basic-armor"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/armor/basic_armor.hpp">
+			<Option target="wv-basic-armor"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/armor/fan_armor.cpp">
+			<Option target="wv-fan-armor"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/armor/fan_armor.hpp">
+			<Option target="wv-fan-armor"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/buff/basic_buff.cpp">
+			<Option target="wv-basic-buff"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/buff/basic_buff.hpp">
+			<Option target="wv-basic-buff"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/filter/basic_kalman.cpp">
+			<Option target="wv-basic-kalman"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/filter/basic_kalman.hpp">
+			<Option target="wv-basic-kalman"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/ml/onnx_inferring.cpp">
+			<Option target="wv-onnx-inferring"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/ml/onnx_inferring.hpp">
+			<Option target="wv-onnx-inferring"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/record/record.cpp">
+			<Option target="wv-video-record"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/record/record.hpp">
+			<Option target="wv-video-record"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/roi/basic_roi.cpp">
+			<Option target="wv-basic-roi"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/module/roi/basic_roi.hpp">
+			<Option target="wv-basic-roi"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\fmt\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/support/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/3rdparty/fmt/support/cmake/cxx14.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\fmt\support\cmake\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aiit/Desktop/WolfVision-main/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

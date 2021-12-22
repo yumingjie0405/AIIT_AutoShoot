@@ -1,0 +1,16 @@
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/WolfVision.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-video-record.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-basic-armor.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-basic-roi.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-basic-pnp.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-onnx-inferring.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-uart-serial.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-mv-video-capture.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-fan-armor.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-basic-kalman.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/CMakeFiles/wv-basic-buff.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/CMakeFiles/edit_cache.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/CMakeFiles/rebuild_cache.dir
+/home/aiit/Desktop/WolfVision-main/cmake-build-debug/3rdparty/fmt/CMakeFiles/fmt.dir

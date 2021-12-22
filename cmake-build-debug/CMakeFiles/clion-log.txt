@@ -1,0 +1,9 @@
+/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/aiit/Desktop/WolfVision-main
+-- Module support is disabled.
+-- Version: 8.0.1
+-- Build type: Debug
+-- CXX_STANDARD: 14
+-- Required features: cxx_variadic_templates
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aiit/Desktop/WolfVision-main/cmake-build-debug
